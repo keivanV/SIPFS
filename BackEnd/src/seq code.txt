@@ -1,0 +1,95 @@
+== Phase 1: Setup & Encryption ==
+DO->DO: Generate (sk_DO, pk_DO , hash(accessKey))
+DO->DO: Define { attrkey_1 -> attrval_1 , ... , attrkey_n -> attrval_n }
+DO->DO: Split accessKey into n Fragment using Shamir Secret Sharing Algorithm
+DO->HLF: Map shares to hashed attributes 
+DO->IPFS: Encrypt file with pk_DO → CT
+IPFS->DO: Return CID
+DO->HLF: Store CID,  hash(accessKey) and {Frag_1 , ... Frag_n}
+
+
+
+== Phase 2: File Requestion  ==
+DR->DIDs: Signup Requester
+DIDs->DR: sign [Attributes Certificate , expirityTimesTamp]
+DR->DR: Generate (sk_DR, pk_DR)
+DR->HLF:  (pk_DR, signed Attributes Certificate)
+
+== Phase 3: Attribute Verification & Re-Encryption ==
+HLF->HLF: Validate DR's attributes
+HLF->HLF: check Revocation Table(pk_DR)
+alt Valid attributes && IF not Exists in revoced Table
+ 
+  HLF->HLF: consensus mechanism (PBFT 66%)
+  HLF->HLF: Reconstruct accessKey via SSS then hash it
+  HLF->HLF: Compare hash(accessKey) with Stored Hash in Ledger 
+  alt access Granted
+     HLF->HLF: Rotate AccessKey -> newAccessKey , SSS(newAccessKey)
+     HLF->PS: Compute Rekey (pk_DO , pk_DR)
+     PS->PS:  Fetch CID
+     PS->PS: ReEncrypt (CID , pk_DR) → C_DR
+     PS->DR: Send C_DR
+  else 
+     HLF->DR: Access Denied
+else
+  HLF->DR: Access denied
+end
+
+== Phase 4: Decryption ==
+DR->DR: Decrypt C_DR with sk_DR → file
+
+== Phase 5: Promotion  ==
+DO->DO: Define new promotion attributes (e.g., "role=editor")
+DO->DO: Generate hash(PromotionKey)
+DO->DO: Split PromotionKey into SSS shares
+DO->HLF: Map promotion shares to hashed attributes (new subkeys)
+DO->HLF: Update access policy with promotion attributes
+
+== Phase 6: Promotion Request (DR) ==
+DR->HLF: Request promotion
+HLF->HLF: Validate promotion attributes
+alt Valid promotion attributes
+  HLF->HLF:  consensus mechanism (PBFT 66%), Fetch promotion shares via subkeys
+  HLF->HLF: Reconstruct hash(PromotionKey) via SSS
+  HLF->HLF: Add pk_DR to promotion table
+  HLF->HLF: Confirm promotion
+  HLF->DR: Grant write access
+  else
+  HLF->DR: Promotion denied
+end
+
+== Phase 7: File Modification by Promoted DR ==
+DR->DR: Modify file content
+DR->IPFS: Encrypt new file with pk_DO → C_owner_new
+IPFS->DR: Return new CID -> new_CID
+DR->HLF: Request update (CID , new_CID)
+== Proof-of-Modification (PoM) ==
+DR->DR: Sign(CID || new_CID || pk_DR || timestamp, sk_DR) with sk_DR
+
+DR->HLF: Submit  PoM 
+
+HLF->HLF: Verify pk_DR in promotion table , CID
+
+alt Valid Modification
+
+  HLF->HLF: transaction log
+  HLF->DR: sign(transaction , CID , new_CID ,  pk_DR)
+  DR->DO: sign(transaction , CID , new_CID ,  pk_DR)
+  
+else
+  HLF->DR: Invalid PoM 
+end
+
+== Phase 8: Demotation  ==
+DO->HLF: Rotate(promotionKey) -> newPromotionKey , SSS(newPromotionKey)
+DO->DO: Change  Promotion Policy 
+DO->HLF: Demote DR (write access) 
+HLF->HLF: Remove pk_DR from promotion table 
+
+
+== Phase 9: Revocation ==
+DO->HLF: Rotate(accessKey) -> newAccessKey , SSS(newAccessKey)
+DO->HLF: Demote DR (read access) 
+HLF->HLF: Remove pk_DR from promotion table (If Exists)
+HLF->HLF: Add pk_DR to revocation table
+

@@ -1,0 +1,26 @@
+[
+  {
+    "transactions": 1,
+    "totalTime": 2.092,
+    "throughput": 0.478,
+    "avgTransactionTime": 2.092
+  },
+  {
+    "transactions": 5,
+    "totalTime": 10.242,
+    "throughput": 0.488,
+    "avgTransactionTime": 2.048
+  },
+  {
+    "transactions": 10,
+    "totalTime": 20.468,
+    "throughput": 0.489,
+    "avgTransactionTime": 2.047
+  },
+  {
+    "transactions": 20,
+    "totalTime": 40.816,
+    "throughput": 0.49,
+    "avgTransactionTime": 2.041
+  }
+]

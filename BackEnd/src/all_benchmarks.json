@@ -1,0 +1,8586 @@
+{
+  "apiCallTimes": [
+    {
+      "function": "QueryUser",
+      "userType": "owner",
+      "avgLatency": "33.964",
+      "latencyUnit": "milliseconds",
+      "details": [
+        {
+          "iteration": 1,
+          "latency": "40.348"
+        },
+        {
+          "iteration": 2,
+          "latency": "37.486"
+        },
+        {
+          "iteration": 3,
+          "latency": "34.473"
+        },
+        {
+          "iteration": 4,
+          "latency": "29.110"
+        },
+        {
+          "iteration": 5,
+          "latency": "28.403"
+        }
+      ]
+    },
+    {
+      "function": "QueryResource",
+      "userType": "owner",
+      "avgLatency": "22.724",
+      "latencyUnit": "milliseconds",
+      "details": [
+        {
+          "iteration": 1,
+          "latency": "28.191"
+        },
+        {
+          "iteration": 2,
+          "latency": "26.390"
+        },
+        {
+          "iteration": 3,
+          "latency": "21.162"
+        },
+        {
+          "iteration": 4,
+          "latency": "19.751"
+        },
+        {
+          "iteration": 5,
+          "latency": "18.126"
+        }
+      ]
+    },
+    {
+      "function": "QueryPolicy",
+      "userType": "owner",
+      "avgLatency": "35.598",
+      "latencyUnit": "milliseconds",
+      "details": [
+        {
+          "iteration": 1,
+          "latency": "43.495"
+        },
+        {
+          "iteration": 2,
+          "latency": "39.967"
+        },
+        {
+          "iteration": 3,
+          "latency": "35.250"
+        },
+        {
+          "iteration": 4,
+          "latency": "27.764"
+        },
+        {
+          "iteration": 5,
+          "latency": "31.513"
+        }
+      ]
+    },
+    {
+      "function": "AccessControl",
+      "userType": "requester",
+      "avgLatency": "2224.412",
+      "latencyUnit": "milliseconds",
+      "details": [
+        {
+          "iteration": 1,
+          "latency": "2143.892"
+        },
+        {
+          "iteration": 2,
+          "latency": "2248.762"
+        },
+        {
+          "iteration": 3,
+          "latency": "2232.917"
+        },
+        {
+          "iteration": 4,
+          "latency": "2264.514"
+        },
+        {
+          "iteration": 5,
+          "latency": "2231.972"
+        }
+      ]
+    },
+    {
+      "function": "UserRegister",
+      "userType": "owner",
+      "avgLatency": "2276.607",
+      "latencyUnit": "milliseconds",
+      "details": [
+        {
+          "iteration": 1,
+          "latency": "2276.607"
+        }
+      ]
+    },
+    {
+      "function": "ResourceEnroll",
+      "userType": "owner",
+      "avgLatency": "2276.927",
+      "latencyUnit": "milliseconds",
+      "details": [
+        {
+          "iteration": 1,
+          "latency": "2276.927"
+        }
+      ]
+    },
+    {
+      "function": "AddPolicy",
+      "userType": "owner",
+      "avgLatency": "2076.550",
+      "latencyUnit": "milliseconds",
+      "details": [
+        {
+          "iteration": 1,
+          "latency": "2076.550"
+        }
+      ]
+    },
+    {
+      "function": "UpdatePolicy",
+      "userType": "owner",
+      "avgLatency": "2206.237",
+      "latencyUnit": "milliseconds",
+      "details": [
+        {
+          "iteration": 1,
+          "latency": "2067.248"
+        },
+        {
+          "iteration": 2,
+          "latency": "2255.687"
+        },
+        {
+          "iteration": 3,
+          "latency": "2243.667"
+        },
+        {
+          "iteration": 4,
+          "latency": "2218.444"
+        },
+        {
+          "iteration": 5,
+          "latency": "2246.138"
+        }
+      ]
+    },
+    {
+      "function": "DeletePolicy",
+      "userType": "owner",
+      "avgLatency": "0.000",
+      "latencyUnit": "milliseconds",
+      "details": [
+        {
+          "iteration": 1,
+          "latency": -1
+        },
+        {
+          "iteration": 2,
+          "latency": -1
+        },
+        {
+          "iteration": 3,
+          "latency": -1
+        },
+        {
+          "iteration": 4,
+          "latency": -1
+        },
+        {
+          "iteration": 5,
+          "latency": -1
+        }
+      ]
+    },
+    {
+      "function": "StoreSecret",
+      "userType": "owner",
+      "avgLatency": "2202.616",
+      "latencyUnit": "milliseconds",
+      "details": [
+        {
+          "iteration": 1,
+          "latency": "2219.332"
+        },
+        {
+          "iteration": 2,
+          "latency": "2089.100"
+        },
+        {
+          "iteration": 3,
+          "latency": "2239.557"
+        },
+        {
+          "iteration": 4,
+          "latency": "2227.134"
+        },
+        {
+          "iteration": 5,
+          "latency": "2237.955"
+        }
+      ]
+    },
+    {
+      "function": "Decrypt",
+      "userType": "requester",
+      "avgLatency": "2195.947",
+      "latencyUnit": "milliseconds",
+      "details": [
+        {
+          "iteration": 1,
+          "latency": "2231.761"
+        },
+        {
+          "iteration": 2,
+          "latency": "2097.424"
+        },
+        {
+          "iteration": 3,
+          "latency": "2227.023"
+        },
+        {
+          "iteration": 4,
+          "latency": "2223.805"
+        },
+        {
+          "iteration": 5,
+          "latency": "2199.720"
+        }
+      ]
+    },
+    {
+      "function": "GenerateSecretShares",
+      "userType": "owner",
+      "avgLatency": "2193.199",
+      "latencyUnit": "milliseconds",
+      "details": [
+        {
+          "iteration": 1,
+          "latency": "2250.050"
+        },
+        {
+          "iteration": 2,
+          "latency": "2138.726"
+        },
+        {
+          "iteration": 3,
+          "latency": "2221.016"
+        },
+        {
+          "iteration": 4,
+          "latency": "2252.413"
+        },
+        {
+          "iteration": 5,
+          "latency": "2103.789"
+        }
+      ]
+    },
+    {
+      "function": "ReconstructSecret",
+      "userType": "owner",
+      "avgLatency": "2239.056",
+      "latencyUnit": "milliseconds",
+      "details": [
+        {
+          "iteration": 1,
+          "latency": "2228.433"
+        },
+        {
+          "iteration": 2,
+          "latency": "2230.800"
+        },
+        {
+          "iteration": 3,
+          "latency": "2251.177"
+        },
+        {
+          "iteration": 4,
+          "latency": "2250.084"
+        },
+        {
+          "iteration": 5,
+          "latency": "2234.787"
+        }
+      ]
+    }
+  ],
+  "createResource": {
+    "iterations": 50,
+    "avgLatency": "2254.771",
+    "latencyUnit": "milliseconds",
+    "details": [
+      {
+        "iteration": 1,
+        "latency": "2304.120"
+      },
+      {
+        "iteration": 2,
+        "latency": "2301.713"
+      },
+      {
+        "iteration": 3,
+        "latency": "2299.322"
+      },
+      {
+        "iteration": 4,
+        "latency": "2296.987"
+      },
+      {
+        "iteration": 5,
+        "latency": "2294.779"
+      },
+      {
+        "iteration": 6,
+        "latency": "2305.939"
+      },
+      {
+        "iteration": 7,
+        "latency": "2297.242"
+      },
+      {
+        "iteration": 8,
+        "latency": "2288.868"
+      },
+      {
+        "iteration": 9,
+        "latency": "2280.576"
+      },
+      {
+        "iteration": 10,
+        "latency": "2274.583"
+      },
+      {
+        "iteration": 11,
+        "latency": "2271.906"
+      },
+      {
+        "iteration": 12,
+        "latency": "2262.239"
+      },
+      {
+        "iteration": 13,
+        "latency": "2253.744"
+      },
+      {
+        "iteration": 14,
+        "latency": "2249.239"
+      },
+      {
+        "iteration": 15,
+        "latency": "2245.991"
+      },
+      {
+        "iteration": 16,
+        "latency": "2283.278"
+      },
+      {
+        "iteration": 17,
+        "latency": "2279.750"
+      },
+      {
+        "iteration": 18,
+        "latency": "2277.004"
+      },
+      {
+        "iteration": 19,
+        "latency": "2274.157"
+      },
+      {
+        "iteration": 20,
+        "latency": "2271.760"
+      },
+      {
+        "iteration": 21,
+        "latency": "2303.540"
+      },
+      {
+        "iteration": 22,
+        "latency": "2294.936"
+      },
+      {
+        "iteration": 23,
+        "latency": "2285.975"
+      },
+      {
+        "iteration": 24,
+        "latency": "2280.491"
+      },
+      {
+        "iteration": 25,
+        "latency": "2276.152"
+      },
+      {
+        "iteration": 26,
+        "latency": "2219.237"
+      },
+      {
+        "iteration": 27,
+        "latency": "2198.869"
+      },
+      {
+        "iteration": 28,
+        "latency": "2182.197"
+      },
+      {
+        "iteration": 29,
+        "latency": "2177.642"
+      },
+      {
+        "iteration": 30,
+        "latency": "2172.480"
+      },
+      {
+        "iteration": 31,
+        "latency": "2300.693"
+      },
+      {
+        "iteration": 32,
+        "latency": "2297.915"
+      },
+      {
+        "iteration": 33,
+        "latency": "2294.657"
+      },
+      {
+        "iteration": 34,
+        "latency": "2292.023"
+      },
+      {
+        "iteration": 35,
+        "latency": "2288.457"
+      },
+      {
+        "iteration": 36,
+        "latency": "2104.751"
+      },
+      {
+        "iteration": 37,
+        "latency": "2102.225"
+      },
+      {
+        "iteration": 38,
+        "latency": "2099.571"
+      },
+      {
+        "iteration": 39,
+        "latency": "2096.829"
+      },
+      {
+        "iteration": 40,
+        "latency": "2093.437"
+      },
+      {
+        "iteration": 41,
+        "latency": "2286.056"
+      },
+      {
+        "iteration": 42,
+        "latency": "2272.656"
+      },
+      {
+        "iteration": 43,
+        "latency": "2265.040"
+      },
+      {
+        "iteration": 44,
+        "latency": "2259.354"
+      },
+      {
+        "iteration": 45,
+        "latency": "2253.555"
+      },
+      {
+        "iteration": 46,
+        "latency": "2302.631"
+      },
+      {
+        "iteration": 47,
+        "latency": "2293.638"
+      },
+      {
+        "iteration": 48,
+        "latency": "2284.882"
+      },
+      {
+        "iteration": 49,
+        "latency": "2274.147"
+      },
+      {
+        "iteration": 50,
+        "latency": "2271.328"
+      }
+    ]
+  },
+  "queryLatency": [
+    {
+      "concurrency": 5,
+      "queryResourceAvgLatency": "20.865",
+      "queryResourceTPS": "336.10",
+      "queryPolicyAvgLatency": "22.984",
+      "queryPolicyTPS": "326.12"
+    },
+    {
+      "concurrency": 80,
+      "queryResourceAvgLatency": "269.087",
+      "queryResourceTPS": "588.03",
+      "queryPolicyAvgLatency": "267.318",
+      "queryPolicyTPS": "533.71"
+    },
+    {
+      "concurrency": 200,
+      "queryResourceAvgLatency": "680.058",
+      "queryResourceTPS": "547.26",
+      "queryPolicyAvgLatency": "628.242",
+      "queryPolicyTPS": "595.78"
+    },
+    {
+      "concurrency": 400,
+      "queryResourceAvgLatency": "1085.255",
+      "queryResourceTPS": "744.78",
+      "queryPolicyAvgLatency": "1072.566",
+      "queryPolicyTPS": "803.00"
+    },
+    {
+      "concurrency": 600,
+      "queryResourceAvgLatency": "1501.705",
+      "queryResourceTPS": "878.44",
+      "queryPolicyAvgLatency": "1433.086",
+      "queryPolicyTPS": "901.89"
+    },
+    {
+      "concurrency": 1000,
+      "queryResourceAvgLatency": "2350.392",
+      "queryResourceTPS": "925.56",
+      "queryPolicyAvgLatency": "2426.824",
+      "queryPolicyTPS": "885.36"
+    }
+  ],
+  "encryptionDecryption": {
+    "iterations": 1000,
+    "encrypt": {
+      "avgLatency": "0.019",
+      "latencyUnit": "milliseconds",
+      "details": [
+        {
+          "iteration": 1,
+          "latency": "0.521"
+        },
+        {
+          "iteration": 2,
+          "latency": "0.043"
+        },
+        {
+          "iteration": 3,
+          "latency": "0.029"
+        },
+        {
+          "iteration": 4,
+          "latency": "0.023"
+        },
+        {
+          "iteration": 5,
+          "latency": "0.022"
+        },
+        {
+          "iteration": 6,
+          "latency": "0.033"
+        },
+        {
+          "iteration": 7,
+          "latency": "0.035"
+        },
+        {
+          "iteration": 8,
+          "latency": "0.028"
+        },
+        {
+          "iteration": 9,
+          "latency": "0.182"
+        },
+        {
+          "iteration": 10,
+          "latency": "0.070"
+        },
+        {
+          "iteration": 11,
+          "latency": "0.111"
+        },
+        {
+          "iteration": 12,
+          "latency": "0.044"
+        },
+        {
+          "iteration": 13,
+          "latency": "0.028"
+        },
+        {
+          "iteration": 14,
+          "latency": "0.022"
+        },
+        {
+          "iteration": 15,
+          "latency": "0.018"
+        },
+        {
+          "iteration": 16,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 17,
+          "latency": "0.017"
+        },
+        {
+          "iteration": 18,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 19,
+          "latency": "0.017"
+        },
+        {
+          "iteration": 20,
+          "latency": "0.017"
+        },
+        {
+          "iteration": 21,
+          "latency": "0.017"
+        },
+        {
+          "iteration": 22,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 23,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 24,
+          "latency": "0.123"
+        },
+        {
+          "iteration": 25,
+          "latency": "0.032"
+        },
+        {
+          "iteration": 26,
+          "latency": "0.073"
+        },
+        {
+          "iteration": 27,
+          "latency": "0.031"
+        },
+        {
+          "iteration": 28,
+          "latency": "0.039"
+        },
+        {
+          "iteration": 29,
+          "latency": "0.019"
+        },
+        {
+          "iteration": 30,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 31,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 32,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 33,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 34,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 35,
+          "latency": "0.031"
+        },
+        {
+          "iteration": 36,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 37,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 38,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 39,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 40,
+          "latency": "0.036"
+        },
+        {
+          "iteration": 41,
+          "latency": "0.018"
+        },
+        {
+          "iteration": 42,
+          "latency": "0.017"
+        },
+        {
+          "iteration": 43,
+          "latency": "0.019"
+        },
+        {
+          "iteration": 44,
+          "latency": "0.018"
+        },
+        {
+          "iteration": 45,
+          "latency": "0.030"
+        },
+        {
+          "iteration": 46,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 47,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 48,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 49,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 50,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 51,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 52,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 53,
+          "latency": "0.033"
+        },
+        {
+          "iteration": 54,
+          "latency": "0.019"
+        },
+        {
+          "iteration": 55,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 56,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 57,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 58,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 59,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 60,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 61,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 62,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 63,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 64,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 65,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 66,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 67,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 68,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 69,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 70,
+          "latency": "0.057"
+        },
+        {
+          "iteration": 71,
+          "latency": "0.054"
+        },
+        {
+          "iteration": 72,
+          "latency": "0.038"
+        },
+        {
+          "iteration": 73,
+          "latency": "0.018"
+        },
+        {
+          "iteration": 74,
+          "latency": "0.018"
+        },
+        {
+          "iteration": 75,
+          "latency": "0.017"
+        },
+        {
+          "iteration": 76,
+          "latency": "0.030"
+        },
+        {
+          "iteration": 77,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 78,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 79,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 80,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 81,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 82,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 83,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 84,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 85,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 86,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 87,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 88,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 89,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 90,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 91,
+          "latency": "0.018"
+        },
+        {
+          "iteration": 92,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 93,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 94,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 95,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 96,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 97,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 98,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 99,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 100,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 101,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 102,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 103,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 104,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 105,
+          "latency": "0.028"
+        },
+        {
+          "iteration": 106,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 107,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 108,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 109,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 110,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 111,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 112,
+          "latency": "0.035"
+        },
+        {
+          "iteration": 113,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 114,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 115,
+          "latency": "0.017"
+        },
+        {
+          "iteration": 116,
+          "latency": "0.021"
+        },
+        {
+          "iteration": 117,
+          "latency": "0.049"
+        },
+        {
+          "iteration": 118,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 119,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 120,
+          "latency": "0.066"
+        },
+        {
+          "iteration": 121,
+          "latency": "0.036"
+        },
+        {
+          "iteration": 122,
+          "latency": "0.019"
+        },
+        {
+          "iteration": 123,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 124,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 125,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 126,
+          "latency": "0.036"
+        },
+        {
+          "iteration": 127,
+          "latency": "0.017"
+        },
+        {
+          "iteration": 128,
+          "latency": "0.017"
+        },
+        {
+          "iteration": 129,
+          "latency": "0.017"
+        },
+        {
+          "iteration": 130,
+          "latency": "0.031"
+        },
+        {
+          "iteration": 131,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 132,
+          "latency": "0.028"
+        },
+        {
+          "iteration": 133,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 134,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 135,
+          "latency": "0.035"
+        },
+        {
+          "iteration": 136,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 137,
+          "latency": "0.058"
+        },
+        {
+          "iteration": 138,
+          "latency": "0.025"
+        },
+        {
+          "iteration": 139,
+          "latency": "0.019"
+        },
+        {
+          "iteration": 140,
+          "latency": "0.032"
+        },
+        {
+          "iteration": 141,
+          "latency": "0.038"
+        },
+        {
+          "iteration": 142,
+          "latency": "0.018"
+        },
+        {
+          "iteration": 143,
+          "latency": "0.018"
+        },
+        {
+          "iteration": 144,
+          "latency": "0.018"
+        },
+        {
+          "iteration": 145,
+          "latency": "0.056"
+        },
+        {
+          "iteration": 146,
+          "latency": "0.018"
+        },
+        {
+          "iteration": 147,
+          "latency": "0.054"
+        },
+        {
+          "iteration": 148,
+          "latency": "0.035"
+        },
+        {
+          "iteration": 149,
+          "latency": "0.053"
+        },
+        {
+          "iteration": 150,
+          "latency": "0.029"
+        },
+        {
+          "iteration": 151,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 152,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 153,
+          "latency": "0.037"
+        },
+        {
+          "iteration": 154,
+          "latency": "0.034"
+        },
+        {
+          "iteration": 155,
+          "latency": "0.077"
+        },
+        {
+          "iteration": 156,
+          "latency": "0.022"
+        },
+        {
+          "iteration": 157,
+          "latency": "0.019"
+        },
+        {
+          "iteration": 158,
+          "latency": "0.031"
+        },
+        {
+          "iteration": 159,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 160,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 161,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 162,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 163,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 164,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 165,
+          "latency": "0.036"
+        },
+        {
+          "iteration": 166,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 167,
+          "latency": "0.038"
+        },
+        {
+          "iteration": 168,
+          "latency": "0.017"
+        },
+        {
+          "iteration": 169,
+          "latency": "0.017"
+        },
+        {
+          "iteration": 170,
+          "latency": "0.032"
+        },
+        {
+          "iteration": 171,
+          "latency": "0.017"
+        },
+        {
+          "iteration": 172,
+          "latency": "0.036"
+        },
+        {
+          "iteration": 173,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 174,
+          "latency": "0.017"
+        },
+        {
+          "iteration": 175,
+          "latency": "0.038"
+        },
+        {
+          "iteration": 176,
+          "latency": "0.017"
+        },
+        {
+          "iteration": 177,
+          "latency": "0.017"
+        },
+        {
+          "iteration": 178,
+          "latency": "0.033"
+        },
+        {
+          "iteration": 179,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 180,
+          "latency": "0.017"
+        },
+        {
+          "iteration": 181,
+          "latency": "0.031"
+        },
+        {
+          "iteration": 182,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 183,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 184,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 185,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 186,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 187,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 188,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 189,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 190,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 191,
+          "latency": "0.029"
+        },
+        {
+          "iteration": 192,
+          "latency": "0.058"
+        },
+        {
+          "iteration": 193,
+          "latency": "0.018"
+        },
+        {
+          "iteration": 194,
+          "latency": "0.017"
+        },
+        {
+          "iteration": 195,
+          "latency": "0.067"
+        },
+        {
+          "iteration": 196,
+          "latency": "0.056"
+        },
+        {
+          "iteration": 197,
+          "latency": "0.023"
+        },
+        {
+          "iteration": 198,
+          "latency": "0.020"
+        },
+        {
+          "iteration": 199,
+          "latency": "0.036"
+        },
+        {
+          "iteration": 200,
+          "latency": "0.053"
+        },
+        {
+          "iteration": 201,
+          "latency": "0.017"
+        },
+        {
+          "iteration": 202,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 203,
+          "latency": "0.030"
+        },
+        {
+          "iteration": 204,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 205,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 206,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 207,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 208,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 209,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 210,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 211,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 212,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 213,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 214,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 215,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 216,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 217,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 218,
+          "latency": "0.023"
+        },
+        {
+          "iteration": 219,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 220,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 221,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 222,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 223,
+          "latency": "0.028"
+        },
+        {
+          "iteration": 224,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 225,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 226,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 227,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 228,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 229,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 230,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 231,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 232,
+          "latency": "0.036"
+        },
+        {
+          "iteration": 233,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 234,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 235,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 236,
+          "latency": "0.017"
+        },
+        {
+          "iteration": 237,
+          "latency": "0.045"
+        },
+        {
+          "iteration": 238,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 239,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 240,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 241,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 242,
+          "latency": "0.035"
+        },
+        {
+          "iteration": 243,
+          "latency": "0.023"
+        },
+        {
+          "iteration": 244,
+          "latency": "0.017"
+        },
+        {
+          "iteration": 245,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 246,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 247,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 248,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 249,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 250,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 251,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 252,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 253,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 254,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 255,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 256,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 257,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 258,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 259,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 260,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 261,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 262,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 263,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 264,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 265,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 266,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 267,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 268,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 269,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 270,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 271,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 272,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 273,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 274,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 275,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 276,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 277,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 278,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 279,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 280,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 281,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 282,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 283,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 284,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 285,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 286,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 287,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 288,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 289,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 290,
+          "latency": "0.034"
+        },
+        {
+          "iteration": 291,
+          "latency": "0.136"
+        },
+        {
+          "iteration": 292,
+          "latency": "0.021"
+        },
+        {
+          "iteration": 293,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 294,
+          "latency": "0.109"
+        },
+        {
+          "iteration": 295,
+          "latency": "0.022"
+        },
+        {
+          "iteration": 296,
+          "latency": "0.105"
+        },
+        {
+          "iteration": 297,
+          "latency": "0.032"
+        },
+        {
+          "iteration": 298,
+          "latency": "0.019"
+        },
+        {
+          "iteration": 299,
+          "latency": "0.018"
+        },
+        {
+          "iteration": 300,
+          "latency": "0.032"
+        },
+        {
+          "iteration": 301,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 302,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 303,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 304,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 305,
+          "latency": "0.017"
+        },
+        {
+          "iteration": 306,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 307,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 308,
+          "latency": "0.033"
+        },
+        {
+          "iteration": 309,
+          "latency": "0.028"
+        },
+        {
+          "iteration": 310,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 311,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 312,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 313,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 314,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 315,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 316,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 317,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 318,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 319,
+          "latency": "0.018"
+        },
+        {
+          "iteration": 320,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 321,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 322,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 323,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 324,
+          "latency": "0.036"
+        },
+        {
+          "iteration": 325,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 326,
+          "latency": "0.034"
+        },
+        {
+          "iteration": 327,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 328,
+          "latency": "0.029"
+        },
+        {
+          "iteration": 329,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 330,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 331,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 332,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 333,
+          "latency": "0.025"
+        },
+        {
+          "iteration": 334,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 335,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 336,
+          "latency": "0.032"
+        },
+        {
+          "iteration": 337,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 338,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 339,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 340,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 341,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 342,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 343,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 344,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 345,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 346,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 347,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 348,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 349,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 350,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 351,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 352,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 353,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 354,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 355,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 356,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 357,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 358,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 359,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 360,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 361,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 362,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 363,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 364,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 365,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 366,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 367,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 368,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 369,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 370,
+          "latency": "0.032"
+        },
+        {
+          "iteration": 371,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 372,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 373,
+          "latency": "0.034"
+        },
+        {
+          "iteration": 374,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 375,
+          "latency": "0.033"
+        },
+        {
+          "iteration": 376,
+          "latency": "0.030"
+        },
+        {
+          "iteration": 377,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 378,
+          "latency": "0.037"
+        },
+        {
+          "iteration": 379,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 380,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 381,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 382,
+          "latency": "0.031"
+        },
+        {
+          "iteration": 383,
+          "latency": "0.037"
+        },
+        {
+          "iteration": 384,
+          "latency": "0.037"
+        },
+        {
+          "iteration": 385,
+          "latency": "0.017"
+        },
+        {
+          "iteration": 386,
+          "latency": "0.017"
+        },
+        {
+          "iteration": 387,
+          "latency": "0.032"
+        },
+        {
+          "iteration": 388,
+          "latency": "0.037"
+        },
+        {
+          "iteration": 389,
+          "latency": "0.017"
+        },
+        {
+          "iteration": 390,
+          "latency": "0.019"
+        },
+        {
+          "iteration": 391,
+          "latency": "0.056"
+        },
+        {
+          "iteration": 392,
+          "latency": "0.027"
+        },
+        {
+          "iteration": 393,
+          "latency": "0.020"
+        },
+        {
+          "iteration": 394,
+          "latency": "0.018"
+        },
+        {
+          "iteration": 395,
+          "latency": "0.030"
+        },
+        {
+          "iteration": 396,
+          "latency": "0.027"
+        },
+        {
+          "iteration": 397,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 398,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 399,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 400,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 401,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 402,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 403,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 404,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 405,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 406,
+          "latency": "0.021"
+        },
+        {
+          "iteration": 407,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 408,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 409,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 410,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 411,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 412,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 413,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 414,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 415,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 416,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 417,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 418,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 419,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 420,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 421,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 422,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 423,
+          "latency": "0.032"
+        },
+        {
+          "iteration": 424,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 425,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 426,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 427,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 428,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 429,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 430,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 431,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 432,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 433,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 434,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 435,
+          "latency": "0.034"
+        },
+        {
+          "iteration": 436,
+          "latency": "0.017"
+        },
+        {
+          "iteration": 437,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 438,
+          "latency": "0.017"
+        },
+        {
+          "iteration": 439,
+          "latency": "0.048"
+        },
+        {
+          "iteration": 440,
+          "latency": "0.037"
+        },
+        {
+          "iteration": 441,
+          "latency": "0.017"
+        },
+        {
+          "iteration": 442,
+          "latency": "0.040"
+        },
+        {
+          "iteration": 443,
+          "latency": "0.017"
+        },
+        {
+          "iteration": 444,
+          "latency": "0.018"
+        },
+        {
+          "iteration": 445,
+          "latency": "0.017"
+        },
+        {
+          "iteration": 446,
+          "latency": "0.058"
+        },
+        {
+          "iteration": 447,
+          "latency": "0.033"
+        },
+        {
+          "iteration": 448,
+          "latency": "0.023"
+        },
+        {
+          "iteration": 449,
+          "latency": "0.018"
+        },
+        {
+          "iteration": 450,
+          "latency": "0.019"
+        },
+        {
+          "iteration": 451,
+          "latency": "0.033"
+        },
+        {
+          "iteration": 452,
+          "latency": "0.017"
+        },
+        {
+          "iteration": 453,
+          "latency": "0.017"
+        },
+        {
+          "iteration": 454,
+          "latency": "0.028"
+        },
+        {
+          "iteration": 455,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 456,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 457,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 458,
+          "latency": "0.027"
+        },
+        {
+          "iteration": 459,
+          "latency": "0.032"
+        },
+        {
+          "iteration": 460,
+          "latency": "0.033"
+        },
+        {
+          "iteration": 461,
+          "latency": "0.036"
+        },
+        {
+          "iteration": 462,
+          "latency": "0.031"
+        },
+        {
+          "iteration": 463,
+          "latency": "0.017"
+        },
+        {
+          "iteration": 464,
+          "latency": "0.017"
+        },
+        {
+          "iteration": 465,
+          "latency": "0.030"
+        },
+        {
+          "iteration": 466,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 467,
+          "latency": "0.027"
+        },
+        {
+          "iteration": 468,
+          "latency": "0.041"
+        },
+        {
+          "iteration": 469,
+          "latency": "0.028"
+        },
+        {
+          "iteration": 470,
+          "latency": "0.033"
+        },
+        {
+          "iteration": 471,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 472,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 473,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 474,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 475,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 476,
+          "latency": "0.036"
+        },
+        {
+          "iteration": 477,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 478,
+          "latency": "0.076"
+        },
+        {
+          "iteration": 479,
+          "latency": "0.061"
+        },
+        {
+          "iteration": 480,
+          "latency": "0.123"
+        },
+        {
+          "iteration": 481,
+          "latency": "0.042"
+        },
+        {
+          "iteration": 482,
+          "latency": "0.028"
+        },
+        {
+          "iteration": 483,
+          "latency": "0.032"
+        },
+        {
+          "iteration": 484,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 485,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 486,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 487,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 488,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 489,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 490,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 491,
+          "latency": "0.051"
+        },
+        {
+          "iteration": 492,
+          "latency": "0.018"
+        },
+        {
+          "iteration": 493,
+          "latency": "0.017"
+        },
+        {
+          "iteration": 494,
+          "latency": "0.018"
+        },
+        {
+          "iteration": 495,
+          "latency": "0.017"
+        },
+        {
+          "iteration": 496,
+          "latency": "0.030"
+        },
+        {
+          "iteration": 497,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 498,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 499,
+          "latency": "0.037"
+        },
+        {
+          "iteration": 500,
+          "latency": "0.017"
+        },
+        {
+          "iteration": 501,
+          "latency": "0.031"
+        },
+        {
+          "iteration": 502,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 503,
+          "latency": "0.028"
+        },
+        {
+          "iteration": 504,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 505,
+          "latency": "0.026"
+        },
+        {
+          "iteration": 506,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 507,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 508,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 509,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 510,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 511,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 512,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 513,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 514,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 515,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 516,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 517,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 518,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 519,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 520,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 521,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 522,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 523,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 524,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 525,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 526,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 527,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 528,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 529,
+          "latency": "0.115"
+        },
+        {
+          "iteration": 530,
+          "latency": "0.024"
+        },
+        {
+          "iteration": 531,
+          "latency": "0.032"
+        },
+        {
+          "iteration": 532,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 533,
+          "latency": "0.029"
+        },
+        {
+          "iteration": 534,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 535,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 536,
+          "latency": "0.056"
+        },
+        {
+          "iteration": 537,
+          "latency": "0.038"
+        },
+        {
+          "iteration": 538,
+          "latency": "0.017"
+        },
+        {
+          "iteration": 539,
+          "latency": "0.018"
+        },
+        {
+          "iteration": 540,
+          "latency": "0.017"
+        },
+        {
+          "iteration": 541,
+          "latency": "0.032"
+        },
+        {
+          "iteration": 542,
+          "latency": "0.017"
+        },
+        {
+          "iteration": 543,
+          "latency": "0.017"
+        },
+        {
+          "iteration": 544,
+          "latency": "0.029"
+        },
+        {
+          "iteration": 545,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 546,
+          "latency": "0.033"
+        },
+        {
+          "iteration": 547,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 548,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 549,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 550,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 551,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 552,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 553,
+          "latency": "0.033"
+        },
+        {
+          "iteration": 554,
+          "latency": "0.036"
+        },
+        {
+          "iteration": 555,
+          "latency": "0.030"
+        },
+        {
+          "iteration": 556,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 557,
+          "latency": "0.027"
+        },
+        {
+          "iteration": 558,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 559,
+          "latency": "0.026"
+        },
+        {
+          "iteration": 560,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 561,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 562,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 563,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 564,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 565,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 566,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 567,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 568,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 569,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 570,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 571,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 572,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 573,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 574,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 575,
+          "latency": "0.032"
+        },
+        {
+          "iteration": 576,
+          "latency": "0.017"
+        },
+        {
+          "iteration": 577,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 578,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 579,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 580,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 581,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 582,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 583,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 584,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 585,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 586,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 587,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 588,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 589,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 590,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 591,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 592,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 593,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 594,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 595,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 596,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 597,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 598,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 599,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 600,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 601,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 602,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 603,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 604,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 605,
+          "latency": "0.033"
+        },
+        {
+          "iteration": 606,
+          "latency": "0.025"
+        },
+        {
+          "iteration": 607,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 608,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 609,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 610,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 611,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 612,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 613,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 614,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 615,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 616,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 617,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 618,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 619,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 620,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 621,
+          "latency": "0.031"
+        },
+        {
+          "iteration": 622,
+          "latency": "0.034"
+        },
+        {
+          "iteration": 623,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 624,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 625,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 626,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 627,
+          "latency": "0.040"
+        },
+        {
+          "iteration": 628,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 629,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 630,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 631,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 632,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 633,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 634,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 635,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 636,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 637,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 638,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 639,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 640,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 641,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 642,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 643,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 644,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 645,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 646,
+          "latency": "0.058"
+        },
+        {
+          "iteration": 647,
+          "latency": "0.019"
+        },
+        {
+          "iteration": 648,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 649,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 650,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 651,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 652,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 653,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 654,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 655,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 656,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 657,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 658,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 659,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 660,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 661,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 662,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 663,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 664,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 665,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 666,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 667,
+          "latency": "0.029"
+        },
+        {
+          "iteration": 668,
+          "latency": "0.017"
+        },
+        {
+          "iteration": 669,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 670,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 671,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 672,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 673,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 674,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 675,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 676,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 677,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 678,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 679,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 680,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 681,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 682,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 683,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 684,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 685,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 686,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 687,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 688,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 689,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 690,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 691,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 692,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 693,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 694,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 695,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 696,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 697,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 698,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 699,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 700,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 701,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 702,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 703,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 704,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 705,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 706,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 707,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 708,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 709,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 710,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 711,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 712,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 713,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 714,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 715,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 716,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 717,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 718,
+          "latency": "0.032"
+        },
+        {
+          "iteration": 719,
+          "latency": "0.025"
+        },
+        {
+          "iteration": 720,
+          "latency": "0.026"
+        },
+        {
+          "iteration": 721,
+          "latency": "0.020"
+        },
+        {
+          "iteration": 722,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 723,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 724,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 725,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 726,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 727,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 728,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 729,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 730,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 731,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 732,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 733,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 734,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 735,
+          "latency": "0.017"
+        },
+        {
+          "iteration": 736,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 737,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 738,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 739,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 740,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 741,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 742,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 743,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 744,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 745,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 746,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 747,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 748,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 749,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 750,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 751,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 752,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 753,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 754,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 755,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 756,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 757,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 758,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 759,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 760,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 761,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 762,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 763,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 764,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 765,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 766,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 767,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 768,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 769,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 770,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 771,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 772,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 773,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 774,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 775,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 776,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 777,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 778,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 779,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 780,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 781,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 782,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 783,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 784,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 785,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 786,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 787,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 788,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 789,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 790,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 791,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 792,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 793,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 794,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 795,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 796,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 797,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 798,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 799,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 800,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 801,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 802,
+          "latency": "0.028"
+        },
+        {
+          "iteration": 803,
+          "latency": "0.020"
+        },
+        {
+          "iteration": 804,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 805,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 806,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 807,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 808,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 809,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 810,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 811,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 812,
+          "latency": "0.031"
+        },
+        {
+          "iteration": 813,
+          "latency": "0.034"
+        },
+        {
+          "iteration": 814,
+          "latency": "0.029"
+        },
+        {
+          "iteration": 815,
+          "latency": "0.039"
+        },
+        {
+          "iteration": 816,
+          "latency": "0.031"
+        },
+        {
+          "iteration": 817,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 818,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 819,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 820,
+          "latency": "0.027"
+        },
+        {
+          "iteration": 821,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 822,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 823,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 824,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 825,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 826,
+          "latency": "0.069"
+        },
+        {
+          "iteration": 827,
+          "latency": "0.023"
+        },
+        {
+          "iteration": 828,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 829,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 830,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 831,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 832,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 833,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 834,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 835,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 836,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 837,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 838,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 839,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 840,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 841,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 842,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 843,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 844,
+          "latency": "0.026"
+        },
+        {
+          "iteration": 845,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 846,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 847,
+          "latency": "0.034"
+        },
+        {
+          "iteration": 848,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 849,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 850,
+          "latency": "0.045"
+        },
+        {
+          "iteration": 851,
+          "latency": "0.038"
+        },
+        {
+          "iteration": 852,
+          "latency": "0.018"
+        },
+        {
+          "iteration": 853,
+          "latency": "0.054"
+        },
+        {
+          "iteration": 854,
+          "latency": "0.027"
+        },
+        {
+          "iteration": 855,
+          "latency": "0.018"
+        },
+        {
+          "iteration": 856,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 857,
+          "latency": "0.047"
+        },
+        {
+          "iteration": 858,
+          "latency": "0.022"
+        },
+        {
+          "iteration": 859,
+          "latency": "0.021"
+        },
+        {
+          "iteration": 860,
+          "latency": "0.017"
+        },
+        {
+          "iteration": 861,
+          "latency": "0.019"
+        },
+        {
+          "iteration": 862,
+          "latency": "0.017"
+        },
+        {
+          "iteration": 863,
+          "latency": "0.019"
+        },
+        {
+          "iteration": 864,
+          "latency": "0.020"
+        },
+        {
+          "iteration": 865,
+          "latency": "0.018"
+        },
+        {
+          "iteration": 866,
+          "latency": "0.017"
+        },
+        {
+          "iteration": 867,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 868,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 869,
+          "latency": "0.018"
+        },
+        {
+          "iteration": 870,
+          "latency": "0.018"
+        },
+        {
+          "iteration": 871,
+          "latency": "0.018"
+        },
+        {
+          "iteration": 872,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 873,
+          "latency": "0.017"
+        },
+        {
+          "iteration": 874,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 875,
+          "latency": "0.017"
+        },
+        {
+          "iteration": 876,
+          "latency": "0.020"
+        },
+        {
+          "iteration": 877,
+          "latency": "0.019"
+        },
+        {
+          "iteration": 878,
+          "latency": "0.020"
+        },
+        {
+          "iteration": 879,
+          "latency": "0.035"
+        },
+        {
+          "iteration": 880,
+          "latency": "0.018"
+        },
+        {
+          "iteration": 881,
+          "latency": "0.018"
+        },
+        {
+          "iteration": 882,
+          "latency": "0.018"
+        },
+        {
+          "iteration": 883,
+          "latency": "0.019"
+        },
+        {
+          "iteration": 884,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 885,
+          "latency": "0.018"
+        },
+        {
+          "iteration": 886,
+          "latency": "0.020"
+        },
+        {
+          "iteration": 887,
+          "latency": "0.021"
+        },
+        {
+          "iteration": 888,
+          "latency": "0.020"
+        },
+        {
+          "iteration": 889,
+          "latency": "0.025"
+        },
+        {
+          "iteration": 890,
+          "latency": "0.229"
+        },
+        {
+          "iteration": 891,
+          "latency": "0.072"
+        },
+        {
+          "iteration": 892,
+          "latency": "0.024"
+        },
+        {
+          "iteration": 893,
+          "latency": "0.018"
+        },
+        {
+          "iteration": 894,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 895,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 896,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 897,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 898,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 899,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 900,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 901,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 902,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 903,
+          "latency": "0.017"
+        },
+        {
+          "iteration": 904,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 905,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 906,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 907,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 908,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 909,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 910,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 911,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 912,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 913,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 914,
+          "latency": "0.051"
+        },
+        {
+          "iteration": 915,
+          "latency": "0.033"
+        },
+        {
+          "iteration": 916,
+          "latency": "0.020"
+        },
+        {
+          "iteration": 917,
+          "latency": "0.019"
+        },
+        {
+          "iteration": 918,
+          "latency": "0.017"
+        },
+        {
+          "iteration": 919,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 920,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 921,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 922,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 923,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 924,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 925,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 926,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 927,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 928,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 929,
+          "latency": "0.064"
+        },
+        {
+          "iteration": 930,
+          "latency": "0.067"
+        },
+        {
+          "iteration": 931,
+          "latency": "0.028"
+        },
+        {
+          "iteration": 932,
+          "latency": "0.020"
+        },
+        {
+          "iteration": 933,
+          "latency": "0.017"
+        },
+        {
+          "iteration": 934,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 935,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 936,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 937,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 938,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 939,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 940,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 941,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 942,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 943,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 944,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 945,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 946,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 947,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 948,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 949,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 950,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 951,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 952,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 953,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 954,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 955,
+          "latency": "0.017"
+        },
+        {
+          "iteration": 956,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 957,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 958,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 959,
+          "latency": "0.017"
+        },
+        {
+          "iteration": 960,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 961,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 962,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 963,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 964,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 965,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 966,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 967,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 968,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 969,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 970,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 971,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 972,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 973,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 974,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 975,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 976,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 977,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 978,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 979,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 980,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 981,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 982,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 983,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 984,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 985,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 986,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 987,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 988,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 989,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 990,
+          "latency": "0.040"
+        },
+        {
+          "iteration": 991,
+          "latency": "0.032"
+        },
+        {
+          "iteration": 992,
+          "latency": "0.019"
+        },
+        {
+          "iteration": 993,
+          "latency": "0.017"
+        },
+        {
+          "iteration": 994,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 995,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 996,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 997,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 998,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 999,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 1000,
+          "latency": "0.014"
+        }
+      ]
+    },
+    "decrypt": {
+      "avgLatency": "0.017",
+      "latencyUnit": "milliseconds",
+      "details": [
+        {
+          "iteration": 1,
+          "latency": "0.234"
+        },
+        {
+          "iteration": 2,
+          "latency": "0.028"
+        },
+        {
+          "iteration": 3,
+          "latency": "0.021"
+        },
+        {
+          "iteration": 4,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 5,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 6,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 7,
+          "latency": "0.017"
+        },
+        {
+          "iteration": 8,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 9,
+          "latency": "0.020"
+        },
+        {
+          "iteration": 10,
+          "latency": "0.027"
+        },
+        {
+          "iteration": 11,
+          "latency": "0.018"
+        },
+        {
+          "iteration": 12,
+          "latency": "0.021"
+        },
+        {
+          "iteration": 13,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 14,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 15,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 16,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 17,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 18,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 19,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 20,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 21,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 22,
+          "latency": "0.079"
+        },
+        {
+          "iteration": 23,
+          "latency": "0.020"
+        },
+        {
+          "iteration": 24,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 25,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 26,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 27,
+          "latency": "0.033"
+        },
+        {
+          "iteration": 28,
+          "latency": "0.028"
+        },
+        {
+          "iteration": 29,
+          "latency": "0.018"
+        },
+        {
+          "iteration": 30,
+          "latency": "0.020"
+        },
+        {
+          "iteration": 31,
+          "latency": "0.031"
+        },
+        {
+          "iteration": 32,
+          "latency": "0.025"
+        },
+        {
+          "iteration": 33,
+          "latency": "0.017"
+        },
+        {
+          "iteration": 34,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 35,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 36,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 37,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 38,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 39,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 40,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 41,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 42,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 43,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 44,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 45,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 46,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 47,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 48,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 49,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 50,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 51,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 52,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 53,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 54,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 55,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 56,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 57,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 58,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 59,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 60,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 61,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 62,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 63,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 64,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 65,
+          "latency": "0.020"
+        },
+        {
+          "iteration": 66,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 67,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 68,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 69,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 70,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 71,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 72,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 73,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 74,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 75,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 76,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 77,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 78,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 79,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 80,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 81,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 82,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 83,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 84,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 85,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 86,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 87,
+          "latency": "0.026"
+        },
+        {
+          "iteration": 88,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 89,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 90,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 91,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 92,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 93,
+          "latency": "0.036"
+        },
+        {
+          "iteration": 94,
+          "latency": "0.019"
+        },
+        {
+          "iteration": 95,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 96,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 97,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 98,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 99,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 100,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 101,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 102,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 103,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 104,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 105,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 106,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 107,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 108,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 109,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 110,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 111,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 112,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 113,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 114,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 115,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 116,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 117,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 118,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 119,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 120,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 121,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 122,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 123,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 124,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 125,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 126,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 127,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 128,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 129,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 130,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 131,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 132,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 133,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 134,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 135,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 136,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 137,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 138,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 139,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 140,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 141,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 142,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 143,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 144,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 145,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 146,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 147,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 148,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 149,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 150,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 151,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 152,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 153,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 154,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 155,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 156,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 157,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 158,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 159,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 160,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 161,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 162,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 163,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 164,
+          "latency": "0.017"
+        },
+        {
+          "iteration": 165,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 166,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 167,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 168,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 169,
+          "latency": "0.032"
+        },
+        {
+          "iteration": 170,
+          "latency": "0.024"
+        },
+        {
+          "iteration": 171,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 172,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 173,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 174,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 175,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 176,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 177,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 178,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 179,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 180,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 181,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 182,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 183,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 184,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 185,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 186,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 187,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 188,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 189,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 190,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 191,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 192,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 193,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 194,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 195,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 196,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 197,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 198,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 199,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 200,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 201,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 202,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 203,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 204,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 205,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 206,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 207,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 208,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 209,
+          "latency": "0.091"
+        },
+        {
+          "iteration": 210,
+          "latency": "0.026"
+        },
+        {
+          "iteration": 211,
+          "latency": "0.017"
+        },
+        {
+          "iteration": 212,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 213,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 214,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 215,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 216,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 217,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 218,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 219,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 220,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 221,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 222,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 223,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 224,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 225,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 226,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 227,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 228,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 229,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 230,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 231,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 232,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 233,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 234,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 235,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 236,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 237,
+          "latency": "0.037"
+        },
+        {
+          "iteration": 238,
+          "latency": "0.019"
+        },
+        {
+          "iteration": 239,
+          "latency": "0.018"
+        },
+        {
+          "iteration": 240,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 241,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 242,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 243,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 244,
+          "latency": "0.054"
+        },
+        {
+          "iteration": 245,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 246,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 247,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 248,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 249,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 250,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 251,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 252,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 253,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 254,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 255,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 256,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 257,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 258,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 259,
+          "latency": "3.516"
+        },
+        {
+          "iteration": 260,
+          "latency": "0.062"
+        },
+        {
+          "iteration": 261,
+          "latency": "0.017"
+        },
+        {
+          "iteration": 262,
+          "latency": "0.018"
+        },
+        {
+          "iteration": 263,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 264,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 265,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 266,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 267,
+          "latency": "0.041"
+        },
+        {
+          "iteration": 268,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 269,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 270,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 271,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 272,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 273,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 274,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 275,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 276,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 277,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 278,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 279,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 280,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 281,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 282,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 283,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 284,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 285,
+          "latency": "0.070"
+        },
+        {
+          "iteration": 286,
+          "latency": "0.040"
+        },
+        {
+          "iteration": 287,
+          "latency": "0.019"
+        },
+        {
+          "iteration": 288,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 289,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 290,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 291,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 292,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 293,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 294,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 295,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 296,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 297,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 298,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 299,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 300,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 301,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 302,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 303,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 304,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 305,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 306,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 307,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 308,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 309,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 310,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 311,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 312,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 313,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 314,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 315,
+          "latency": "0.073"
+        },
+        {
+          "iteration": 316,
+          "latency": "0.018"
+        },
+        {
+          "iteration": 317,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 318,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 319,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 320,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 321,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 322,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 323,
+          "latency": "0.019"
+        },
+        {
+          "iteration": 324,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 325,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 326,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 327,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 328,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 329,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 330,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 331,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 332,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 333,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 334,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 335,
+          "latency": "0.237"
+        },
+        {
+          "iteration": 336,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 337,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 338,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 339,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 340,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 341,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 342,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 343,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 344,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 345,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 346,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 347,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 348,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 349,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 350,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 351,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 352,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 353,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 354,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 355,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 356,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 357,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 358,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 359,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 360,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 361,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 362,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 363,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 364,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 365,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 366,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 367,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 368,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 369,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 370,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 371,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 372,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 373,
+          "latency": "0.021"
+        },
+        {
+          "iteration": 374,
+          "latency": "0.025"
+        },
+        {
+          "iteration": 375,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 376,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 377,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 378,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 379,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 380,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 381,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 382,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 383,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 384,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 385,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 386,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 387,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 388,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 389,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 390,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 391,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 392,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 393,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 394,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 395,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 396,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 397,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 398,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 399,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 400,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 401,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 402,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 403,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 404,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 405,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 406,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 407,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 408,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 409,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 410,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 411,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 412,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 413,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 414,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 415,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 416,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 417,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 418,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 419,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 420,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 421,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 422,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 423,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 424,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 425,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 426,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 427,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 428,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 429,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 430,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 431,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 432,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 433,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 434,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 435,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 436,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 437,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 438,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 439,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 440,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 441,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 442,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 443,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 444,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 445,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 446,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 447,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 448,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 449,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 450,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 451,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 452,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 453,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 454,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 455,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 456,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 457,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 458,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 459,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 460,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 461,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 462,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 463,
+          "latency": "0.024"
+        },
+        {
+          "iteration": 464,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 465,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 466,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 467,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 468,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 469,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 470,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 471,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 472,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 473,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 474,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 475,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 476,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 477,
+          "latency": "0.046"
+        },
+        {
+          "iteration": 478,
+          "latency": "0.023"
+        },
+        {
+          "iteration": 479,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 480,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 481,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 482,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 483,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 484,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 485,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 486,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 487,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 488,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 489,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 490,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 491,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 492,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 493,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 494,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 495,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 496,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 497,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 498,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 499,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 500,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 501,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 502,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 503,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 504,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 505,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 506,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 507,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 508,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 509,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 510,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 511,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 512,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 513,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 514,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 515,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 516,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 517,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 518,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 519,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 520,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 521,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 522,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 523,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 524,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 525,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 526,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 527,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 528,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 529,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 530,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 531,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 532,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 533,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 534,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 535,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 536,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 537,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 538,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 539,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 540,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 541,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 542,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 543,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 544,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 545,
+          "latency": "0.024"
+        },
+        {
+          "iteration": 546,
+          "latency": "0.022"
+        },
+        {
+          "iteration": 547,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 548,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 549,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 550,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 551,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 552,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 553,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 554,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 555,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 556,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 557,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 558,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 559,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 560,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 561,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 562,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 563,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 564,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 565,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 566,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 567,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 568,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 569,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 570,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 571,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 572,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 573,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 574,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 575,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 576,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 577,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 578,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 579,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 580,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 581,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 582,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 583,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 584,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 585,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 586,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 587,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 588,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 589,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 590,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 591,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 592,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 593,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 594,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 595,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 596,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 597,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 598,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 599,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 600,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 601,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 602,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 603,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 604,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 605,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 606,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 607,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 608,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 609,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 610,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 611,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 612,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 613,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 614,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 615,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 616,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 617,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 618,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 619,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 620,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 621,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 622,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 623,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 624,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 625,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 626,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 627,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 628,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 629,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 630,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 631,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 632,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 633,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 634,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 635,
+          "latency": "0.030"
+        },
+        {
+          "iteration": 636,
+          "latency": "0.018"
+        },
+        {
+          "iteration": 637,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 638,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 639,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 640,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 641,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 642,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 643,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 644,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 645,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 646,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 647,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 648,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 649,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 650,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 651,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 652,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 653,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 654,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 655,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 656,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 657,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 658,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 659,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 660,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 661,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 662,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 663,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 664,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 665,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 666,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 667,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 668,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 669,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 670,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 671,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 672,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 673,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 674,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 675,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 676,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 677,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 678,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 679,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 680,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 681,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 682,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 683,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 684,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 685,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 686,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 687,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 688,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 689,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 690,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 691,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 692,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 693,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 694,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 695,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 696,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 697,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 698,
+          "latency": "0.017"
+        },
+        {
+          "iteration": 699,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 700,
+          "latency": "0.017"
+        },
+        {
+          "iteration": 701,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 702,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 703,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 704,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 705,
+          "latency": "0.030"
+        },
+        {
+          "iteration": 706,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 707,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 708,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 709,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 710,
+          "latency": "0.025"
+        },
+        {
+          "iteration": 711,
+          "latency": "0.031"
+        },
+        {
+          "iteration": 712,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 713,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 714,
+          "latency": "0.102"
+        },
+        {
+          "iteration": 715,
+          "latency": "0.118"
+        },
+        {
+          "iteration": 716,
+          "latency": "0.033"
+        },
+        {
+          "iteration": 717,
+          "latency": "0.062"
+        },
+        {
+          "iteration": 718,
+          "latency": "0.061"
+        },
+        {
+          "iteration": 719,
+          "latency": "0.030"
+        },
+        {
+          "iteration": 720,
+          "latency": "0.034"
+        },
+        {
+          "iteration": 721,
+          "latency": "0.050"
+        },
+        {
+          "iteration": 722,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 723,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 724,
+          "latency": "0.027"
+        },
+        {
+          "iteration": 725,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 726,
+          "latency": "0.032"
+        },
+        {
+          "iteration": 727,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 728,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 729,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 730,
+          "latency": "0.024"
+        },
+        {
+          "iteration": 731,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 732,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 733,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 734,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 735,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 736,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 737,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 738,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 739,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 740,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 741,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 742,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 743,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 744,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 745,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 746,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 747,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 748,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 749,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 750,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 751,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 752,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 753,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 754,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 755,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 756,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 757,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 758,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 759,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 760,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 761,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 762,
+          "latency": "0.024"
+        },
+        {
+          "iteration": 763,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 764,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 765,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 766,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 767,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 768,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 769,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 770,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 771,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 772,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 773,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 774,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 775,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 776,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 777,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 778,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 779,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 780,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 781,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 782,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 783,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 784,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 785,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 786,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 787,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 788,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 789,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 790,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 791,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 792,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 793,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 794,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 795,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 796,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 797,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 798,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 799,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 800,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 801,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 802,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 803,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 804,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 805,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 806,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 807,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 808,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 809,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 810,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 811,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 812,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 813,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 814,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 815,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 816,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 817,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 818,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 819,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 820,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 821,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 822,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 823,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 824,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 825,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 826,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 827,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 828,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 829,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 830,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 831,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 832,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 833,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 834,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 835,
+          "latency": "0.060"
+        },
+        {
+          "iteration": 836,
+          "latency": "0.024"
+        },
+        {
+          "iteration": 837,
+          "latency": "0.016"
+        },
+        {
+          "iteration": 838,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 839,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 840,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 841,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 842,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 843,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 844,
+          "latency": "0.034"
+        },
+        {
+          "iteration": 845,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 846,
+          "latency": "0.017"
+        },
+        {
+          "iteration": 847,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 848,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 849,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 850,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 851,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 852,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 853,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 854,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 855,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 856,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 857,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 858,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 859,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 860,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 861,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 862,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 863,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 864,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 865,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 866,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 867,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 868,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 869,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 870,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 871,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 872,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 873,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 874,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 875,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 876,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 877,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 878,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 879,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 880,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 881,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 882,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 883,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 884,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 885,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 886,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 887,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 888,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 889,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 890,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 891,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 892,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 893,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 894,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 895,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 896,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 897,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 898,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 899,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 900,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 901,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 902,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 903,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 904,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 905,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 906,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 907,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 908,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 909,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 910,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 911,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 912,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 913,
+          "latency": "0.049"
+        },
+        {
+          "iteration": 914,
+          "latency": "0.022"
+        },
+        {
+          "iteration": 915,
+          "latency": "0.014"
+        },
+        {
+          "iteration": 916,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 917,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 918,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 919,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 920,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 921,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 922,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 923,
+          "latency": "0.031"
+        },
+        {
+          "iteration": 924,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 925,
+          "latency": "0.032"
+        },
+        {
+          "iteration": 926,
+          "latency": "0.033"
+        },
+        {
+          "iteration": 927,
+          "latency": "0.018"
+        },
+        {
+          "iteration": 928,
+          "latency": "0.013"
+        },
+        {
+          "iteration": 929,
+          "latency": "0.012"
+        },
+        {
+          "iteration": 930,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 931,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 932,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 933,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 934,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 935,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 936,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 937,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 938,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 939,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 940,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 941,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 942,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 943,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 944,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 945,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 946,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 947,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 948,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 949,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 950,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 951,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 952,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 953,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 954,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 955,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 956,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 957,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 958,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 959,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 960,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 961,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 962,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 963,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 964,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 965,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 966,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 967,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 968,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 969,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 970,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 971,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 972,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 973,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 974,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 975,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 976,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 977,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 978,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 979,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 980,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 981,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 982,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 983,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 984,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 985,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 986,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 987,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 988,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 989,
+          "latency": "0.015"
+        },
+        {
+          "iteration": 990,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 991,
+          "latency": "0.011"
+        },
+        {
+          "iteration": 992,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 993,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 994,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 995,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 996,
+          "latency": "0.010"
+        },
+        {
+          "iteration": 997,
+          "latency": "0.032"
+        },
+        {
+          "iteration": 998,
+          "latency": "0.077"
+        },
+        {
+          "iteration": 999,
+          "latency": "0.178"
+        },
+        {
+          "iteration": 1000,
+          "latency": "0.019"
+        }
+      ]
+    }
+  }
+}

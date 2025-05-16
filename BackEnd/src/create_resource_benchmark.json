@@ -1,0 +1,207 @@
+{
+  "iterations": 50,
+  "avgLatency": "2254.771",
+  "latencyUnit": "milliseconds",
+  "details": [
+    {
+      "iteration": 1,
+      "latency": "2304.120"
+    },
+    {
+      "iteration": 2,
+      "latency": "2301.713"
+    },
+    {
+      "iteration": 3,
+      "latency": "2299.322"
+    },
+    {
+      "iteration": 4,
+      "latency": "2296.987"
+    },
+    {
+      "iteration": 5,
+      "latency": "2294.779"
+    },
+    {
+      "iteration": 6,
+      "latency": "2305.939"
+    },
+    {
+      "iteration": 7,
+      "latency": "2297.242"
+    },
+    {
+      "iteration": 8,
+      "latency": "2288.868"
+    },
+    {
+      "iteration": 9,
+      "latency": "2280.576"
+    },
+    {
+      "iteration": 10,
+      "latency": "2274.583"
+    },
+    {
+      "iteration": 11,
+      "latency": "2271.906"
+    },
+    {
+      "iteration": 12,
+      "latency": "2262.239"
+    },
+    {
+      "iteration": 13,
+      "latency": "2253.744"
+    },
+    {
+      "iteration": 14,
+      "latency": "2249.239"
+    },
+    {
+      "iteration": 15,
+      "latency": "2245.991"
+    },
+    {
+      "iteration": 16,
+      "latency": "2283.278"
+    },
+    {
+      "iteration": 17,
+      "latency": "2279.750"
+    },
+    {
+      "iteration": 18,
+      "latency": "2277.004"
+    },
+    {
+      "iteration": 19,
+      "latency": "2274.157"
+    },
+    {
+      "iteration": 20,
+      "latency": "2271.760"
+    },
+    {
+      "iteration": 21,
+      "latency": "2303.540"
+    },
+    {
+      "iteration": 22,
+      "latency": "2294.936"
+    },
+    {
+      "iteration": 23,
+      "latency": "2285.975"
+    },
+    {
+      "iteration": 24,
+      "latency": "2280.491"
+    },
+    {
+      "iteration": 25,
+      "latency": "2276.152"
+    },
+    {
+      "iteration": 26,
+      "latency": "2219.237"
+    },
+    {
+      "iteration": 27,
+      "latency": "2198.869"
+    },
+    {
+      "iteration": 28,
+      "latency": "2182.197"
+    },
+    {
+      "iteration": 29,
+      "latency": "2177.642"
+    },
+    {
+      "iteration": 30,
+      "latency": "2172.480"
+    },
+    {
+      "iteration": 31,
+      "latency": "2300.693"
+    },
+    {
+      "iteration": 32,
+      "latency": "2297.915"
+    },
+    {
+      "iteration": 33,
+      "latency": "2294.657"
+    },
+    {
+      "iteration": 34,
+      "latency": "2292.023"
+    },
+    {
+      "iteration": 35,
+      "latency": "2288.457"
+    },
+    {
+      "iteration": 36,
+      "latency": "2104.751"
+    },
+    {
+      "iteration": 37,
+      "latency": "2102.225"
+    },
+    {
+      "iteration": 38,
+      "latency": "2099.571"
+    },
+    {
+      "iteration": 39,
+      "latency": "2096.829"
+    },
+    {
+      "iteration": 40,
+      "latency": "2093.437"
+    },
+    {
+      "iteration": 41,
+      "latency": "2286.056"
+    },
+    {
+      "iteration": 42,
+      "latency": "2272.656"
+    },
+    {
+      "iteration": 43,
+      "latency": "2265.040"
+    },
+    {
+      "iteration": 44,
+      "latency": "2259.354"
+    },
+    {
+      "iteration": 45,
+      "latency": "2253.555"
+    },
+    {
+      "iteration": 46,
+      "latency": "2302.631"
+    },
+    {
+      "iteration": 47,
+      "latency": "2293.638"
+    },
+    {
+      "iteration": 48,
+      "latency": "2284.882"
+    },
+    {
+      "iteration": 49,
+      "latency": "2274.147"
+    },
+    {
+      "iteration": 50,
+      "latency": "2271.328"
+    }
+  ]
+}

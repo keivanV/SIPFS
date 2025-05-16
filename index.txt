@@ -1,0 +1,114 @@
+[
+  {
+    "index": 0,
+    "privateKey": {},
+    "fileName": "index.txt",
+    "cid": "QmZvFCpgLxLAtnJF1qRgwr4dY1xy114rhQgjQ4qoMBPVs9",
+    "workerName": "w1"
+  },
+  {
+    "index": 1,
+    "privateKey": {},
+    "fileName": "index.txt",
+    "cid": "QmcE549yVsZmreGuvohGrvPKqSniXJ7EB7iVZb6wUENu1S",
+    "workerName": "w2"
+  },
+  {
+    "index": 2,
+    "privateKey": {},
+    "fileName": "index.txt",
+    "cid": "Qmb2NhGCrkNfJ4jzqH9JsjsGtPZMNh3CdPi9YyzcRUjYm4",
+    "workerName": "w3"
+  },
+  {
+    "index": 3,
+    "privateKey": {},
+    "fileName": "index.txt",
+    "cid": "QmRxhe7a5ztZ4whAoKeuoSun6ECdNPmi93RgSmHzXcuGiN",
+    "workerName": "w4"
+  },
+  {
+    "index": 0,
+    "privateKey": {},
+    "fileName": "index.txt",
+    "cid": "QmXVNwDjoLWFdYcmigrBuKFmKXLP2daC7ubx3hjewdF97F",
+    "workerName": "w1"
+  },
+  {
+    "index": 1,
+    "privateKey": {},
+    "fileName": "index.txt",
+    "cid": "QmWd7GfiEdPYJUKYSeNFcgp2VTag1FprTNwBzpUe6Shdkf",
+    "workerName": "w2"
+  },
+  {
+    "index": 2,
+    "privateKey": {},
+    "fileName": "index.txt",
+    "cid": "QmNoEDDZAxmy5eWWKnqfEmN5qdDJAGatfQ7ztfmt6M2njs",
+    "workerName": "w3"
+  },
+  {
+    "index": 3,
+    "privateKey": {},
+    "fileName": "index.txt",
+    "cid": "QmPgqpSsJuLV8Hvdk3RBpdQWZhDhxepATyCKDX4ascTFHY",
+    "workerName": "w4"
+  },
+  {
+    "index": 0,
+    "privateKey": {},
+    "fileName": "index.txt",
+    "cid": "QmWmT3oihaqwJv6RQUYN4GfB9HQz2vZCTJHxonHqHTCF2c",
+    "workerName": "w1"
+  },
+  {
+    "index": 1,
+    "privateKey": {},
+    "fileName": "index.txt",
+    "cid": "Qmba9HebDydWfR7LQY8aUwe1RQL3o4Hdn3ZsiBm3JsWqN2",
+    "workerName": "w2"
+  },
+  {
+    "index": 2,
+    "privateKey": {},
+    "fileName": "index.txt",
+    "cid": "QmUGC9VjhVwBFpmF9uKyrupPA77kk8v9W9F1ycbVbjWtks",
+    "workerName": "w3"
+  },
+  {
+    "index": 3,
+    "privateKey": {},
+    "fileName": "index.txt",
+    "cid": "QmdGbVbintFoxnFMvenJSVPArd6EZ5AjYBV5yVTxNXbyxv",
+    "workerName": "w4"
+  },
+  {
+    "index": 0,
+    "privateKey": {},
+    "fileName": "index.txt",
+    "cid": "Qmcv9S4SABF3EpR9aAfKeLcC6RaW1LNupwdtgSwED7Ndyn",
+    "workerName": "w1"
+  },
+  {
+    "index": 1,
+    "privateKey": {},
+    "fileName": "index.txt",
+    "cid": "QmWQvPWTDSEpmuYtYzTMzJ8xdEWCbt8ckk1fwPNVQKfgBK",
+    "workerName": "w2"
+  },
+  {
+    "index": 2,
+    "privateKey": {},
+    "fileName": "index.txt",
+    "cid": "QmZ9bAgiS1Ld5VsxtqFS5hQkHVHpogrFvjJjWq7kVp7jbU",
+    "workerName": "w3"
+  },
+  {
+    "index": 3,
+    "privateKey": {},
+    "fileName": "index.txt",
+    "cid": "QmYZYZoUKYTRKqHu43XBgYsmtkXjX7uNVfyBdBNrNADopz",
+    "workerName": "w4"
+  }
+]
