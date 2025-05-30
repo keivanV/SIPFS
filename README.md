@@ -1,4 +1,9 @@
-"# ACCESS_CONTROL_FOR_IPFS " 
+# IPFS Access Control Solution
+
+[![IPFS](https://img.shields.io/badge/Project-IPFS-blueviolet.svg)](https://ipfs.tech/)
+
+A decentralized access control layer for IPFS using encryption and smart contracts.
+
 
 
 <table>
